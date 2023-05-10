@@ -101,7 +101,9 @@ body {
 }
 
 #social {
-    width: 300px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
 }
 
 #social div{
@@ -115,7 +117,7 @@ body {
     background-color: var(--clr3);
 }
 
-#email a{font-size: .8em;}
+#email a{font-size: .7em;}
 
 #contact {
     width: 50px;
