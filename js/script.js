@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 })
  
+$("#contact").animate({ right: "-2000px" });
 
 function mobile() {
     if (window.matchMedia('(max-width: 1130px)').matches) {
