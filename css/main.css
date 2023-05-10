@@ -61,16 +61,6 @@ body {
     
 }
 
-#p_pic_container #toggle {
-    width: 30px;
-    height: 30px;
-    background-color: var(--clr1);
-    border-radius: 50%;
-    border: 1px var(--clr3) solid;
-    position: absolute;
-    right:30px;
-    top: 82px;
-}
 
 #page {
     top: 0px;
