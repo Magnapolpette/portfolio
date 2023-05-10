@@ -58,22 +58,14 @@ body {
     z-index: 1;
 }
 
-#page {
-}
+#page {padding: 20px 20px 0px 20px;}
 
-#page .page_div {
-    min-height: 300px;
-}
-#page1 {
-    min-height: 500px;
-}
-
+#page .page_div {margin: 50px 0px 50px 0px;}
 
 #programs {
-    width: 300px;
     height: 150px;
     border: var(--clr3) 2px solid;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px;
     background-color: var(--clr3);
 }
@@ -89,12 +81,48 @@ body {
 }
 
 #about {
+    max-width: 700px;
     background-color: var(--clr3);
     border-radius: 30px;
 }
 
 #about p{
+    text-align: left;
     font-size: .9em;
     color: var(--clr1);
     padding: 15px;
+}
+
+#reel iframe{
+    max-width: 700px;
+    height: 300px;
+    background-color: var(--clr3);
+    border-radius: 30px;
+}
+
+#social {
+    left: 50px;
+    width: 100px;
+}
+
+#social div{
+    width:300px;
+    height: 30px;
+    border: var(--clr3) solid 2px;
+    display: flex;
+    object-fit: cover;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    background-color: var(--clr3);
+}
+
+footer {
+    width: 50px;
+    height: 50px;
+    background-color: var(--clr3);
+    border-radius: 50%;
+    z-index: 999;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
 }
