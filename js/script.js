@@ -16,16 +16,11 @@ window.addEventListener('DOMContentLoaded', function () {
 })
  
 function menu() {
-    $("body").css({ overflow: "hidden" });
+    // $("body").css({ overflow: "hidden" });
     $("html, body").animate({ scrollTop: 0 }, 0)
     $("#menu").animate({ top: "100px" }, 1000);
     $("#menu").animate({ top: "0px" }, 1000);
-    $('#menu')
-        .delay(800)
-        .queue(function (next) {
-            $(this).animate({ height: "1500px" }, 1000);
-            next();
-        });
+
     $('#page')
         .delay(1000)
         .queue(function (next) {
@@ -48,7 +43,7 @@ function mobile() {
     }
 }
 function desktop() {
-    if (window.matchMedia('(min-width: 1130px)').matches) {
+    if (window.matchMedia('(min-width: 760px)').matches) {
         window.location.href = "index.html";
     }
 }
