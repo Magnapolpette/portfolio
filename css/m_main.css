@@ -27,7 +27,6 @@ a:hover {text-decoration: none;color: var(--clr1);}
 a:active {text-decoration: none;color: var(--clr1);}
 
 html {
-    overflow: hidden;
     height: 100%;
 }
 body {
