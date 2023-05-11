@@ -32,7 +32,6 @@ html {
 body {
     background-color: var(--clr4);
     color: var(--clr3);
-    overscroll-behavior: none!important;
     /* padding: 0px 200px 0px 200px; */
 }
 
