@@ -29,6 +29,7 @@ a:active {text-decoration: none;color: var(--clr1);}
 body {
     background-color: var(--clr4);
     color: var(--clr3);
+    height: 100%;
     /* padding: 0px 200px 0px 200px; */
 }
 
