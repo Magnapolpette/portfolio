@@ -26,10 +26,11 @@ a:visited {text-decoration: none;color: var(--clr1);}
 a:hover {text-decoration: none;color: var(--clr1);}
 a:active {text-decoration: none;color: var(--clr1);}
 
-body {
+html, body {
     background-color: var(--clr4);
     color: var(--clr3);
-    height: 100%;
+    max-height: 100px;
+    overflow: scroll;
     /* padding: 0px 200px 0px 200px; */
 }
 
