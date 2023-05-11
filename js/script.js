@@ -16,17 +16,23 @@ window.addEventListener('DOMContentLoaded', function () {
 })
  
 function menu() {
-    // $("body").css({ overflow: "hidden" });
+    $("body").css({ overflow: "hidden" });
+    // $("body").css({ backgroundColor: "#212A3E" });
     $("html, body").animate({ scrollTop: 0 }, 0)
     $("#menu").animate({ top: "100px" }, 1000);
     $("#menu").animate({ top: "0px" }, 1000);
-
-    $('#page')
+    $("#page")
         .delay(1000)
         .queue(function (next) {
-            $(this).css('display', 'none');
+            $(this).css({ display: "none" });
             next();
-        });
+    });
+    $("body")
+        .delay(1000)
+        .queue(function (next) {
+            $(this).css({ background: "#212A3E" });
+            next();
+    });
 }
 
 function closemenu() {

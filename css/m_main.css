@@ -18,7 +18,7 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.box {border: red solid 1px; }
+.box {border: hsl(221, 31%, 19%) solid 1px; }
 
 
 a:link {text-decoration: none;color: var(--clr1);}
