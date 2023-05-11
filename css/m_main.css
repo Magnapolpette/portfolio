@@ -30,6 +30,7 @@ html {
     height: 100%;
 }
 body {
+    height: 100%;
     background-color: var(--clr4);
     color: var(--clr3);
     /* padding: 0px 200px 0px 200px; */
