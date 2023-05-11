@@ -135,3 +135,13 @@ body {
    top: 0;
 }
 
+#social i {
+    max-width: 50px;
+}
+
+footer {
+    height: 50px;
+    background-color: var(--clr3);
+    margin-top: 20px;
+}
+
