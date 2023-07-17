@@ -62,3 +62,33 @@ function media_query() {
     }
 }
 
+
+function copaaay() {
+    var copyText = 'massimociniglio98@Gmail.com';
+    
+    navigator.clipboard.writeText(copyText);
+    $('#mail').html(`Copiato nei appunti`);
+    return setTimeout(test(), 10000);
+}
+
+function test() {
+    $('#mail').html(`a`)
+}
+
+function reset() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve($('#mail').html(`<i  class="fa-regular fa-envelope fa-shake" style="color: #ffffff;"></i>
+            massimociniglio98@Gmail.com`));
+        }, 3000);
+    });
+}
+
+async function copy() {
+    var copyText = 'massimociniglio98@Gmail.com';
+    navigator.clipboard.writeText(copyText);
+    $('#mail').html(`Copiato nei appunti`);
+    const result = await reset();
+    return result
+}
+
