@@ -63,18 +63,6 @@ function media_query() {
 }
 
 
-function copaaay() {
-    var copyText = 'massimociniglio98@Gmail.com';
-    
-    navigator.clipboard.writeText(copyText);
-    $('#mail').html(`Copiato nei appunti`);
-    return setTimeout(test(), 10000);
-}
-
-function test() {
-    $('#mail').html(`a`)
-}
-
 function reset() {
     return new Promise(resolve => {
         setTimeout(() => {
